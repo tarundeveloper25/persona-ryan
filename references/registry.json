@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pageId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453",
-  "updatedAt": 1787150928156,
+  "updatedAt": 1787151093884,
   "repos": [
     {
       "kind": "list",
@@ -13,6 +13,17 @@
       "branch": "main",
       "headSha": "5e953f2a1ec271422b95291ad5f9f693436cc92e",
       "linkedAt": 1787150928156
+    },
+    {
+      "kind": "pipeline",
+      "id": "pl_2c40bbc4835c",
+      "slug": "pl-2c40bbc4835c",
+      "displayName": "Buyer Qualification Pipeline",
+      "path": "references/pipelines/pl-2c40bbc4835c",
+      "url": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
+      "branch": "main",
+      "headSha": "6b4208f6e4b9b0d82f86448bb5c7b7c0bc42c143",
+      "linkedAt": 1787151093884
     }
   ]
 }

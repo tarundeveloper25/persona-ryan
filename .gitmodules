@@ -2,3 +2,7 @@
 	path = references/lists/list-99eafe2c385b
 	url = https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git
 	branch = main
+[submodule "references/pipelines/pl-2c40bbc4835c"]
+	path = references/pipelines/pl-2c40bbc4835c
+	url = https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git
+	branch = main
