@@ -1,0 +1,23 @@
+{
+  "name": "@go-code-bot/go-digital-twin-page-skills",
+  "version": "1.0.0",
+  "description": "Gabriel Operator AI Persona skill pack — chat-config.json scaffold; install with npx or curl",
+  "keywords": [
+    "gabriel-operator",
+    "digital-twin",
+    "skills",
+    "chat-config",
+    "page-builder"
+  ],
+  "license": "MIT",
+  "bin": {
+    "digital-twin-page-skills": "./cli.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/go-code-bot/go-digital-twin-page-skills.git"
+  }
+}
