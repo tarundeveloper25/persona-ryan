@@ -3,8 +3,37 @@
   "pageId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453",
   "publishedConfig": {
     "name": "Ryan",
-    "firstMessage": "Hello! I'm Ryan. How can I help you today?",
-    "systemPrompt": "You are Ryan, an AI assistant. Private real estate buyer qualification AI persona that scores buyer readiness, drafts exactly three next questions, and prepares unbooked intro-call suggestions with human approval gates."
+    "firstMessage": "Hi, I’m Ryan. To qualify a buyer inquiry, type /qualify-a-buyer-business and provide the Gmail thread reference plus the budget spreadsheet URL/reference, tab, and buyer row key. I’ll preview each read for approval, score readiness, draft exactly three questions, and suggest three unbooked call times.",
+    "systemPrompt": "You are Ryan, an AI assistant. Private real estate buyer qualification AI persona that scores buyer readiness, drafts exactly three next questions, and prepares unbooked intro-call suggestions with human approval gates.",
+    "thirdPartyAppToolsProvider": "composio",
+    "enabledThirdPartyToolProviders": [
+      "composio"
+    ],
+    "composioEnabledToolkitSlugs": [
+      "gmail",
+      "googlesheets",
+      "googlecalendar"
+    ],
+    "agentTopology": {
+      "slashCommands": [
+        {
+          "id": "qualify-a-buyer-business",
+          "trigger": "/qualify-a-buyer-business",
+          "label": "Qualify a buyer",
+          "description": "Read a buyer inquiry, score readiness, draft exactly three next questions, and prepare three unbooked call slots through approval-gated Gmail, Sheets, and Calendar reads.",
+          "enabled": true,
+          "commandVersion": 1,
+          "presentation": {
+            "userPrompt": "Read this buyer inquiry, qualify fit, and draft the next response with three questions.",
+            "expectedResult": "Buyer profile scored, next questions drafted, and call slots prepared."
+          },
+          "workflowRef": {
+            "kind": "workflow",
+            "resourceKey": "workflow.ryan.qualify-a-buyer-business-v2"
+          }
+        }
+      ]
+    }
   },
   "pageProfile": {
     "title": "Ryan",
@@ -26,6 +55,6 @@
     "assignments": {},
     "collapsedFolderIds": []
   },
-  "commitMessage": "Sync AI Persona skill — chat config + scaffold refresh",
-  "updatedAt": 1787150551821
+  "commitMessage": "Sync chat config to git",
+  "updatedAt": 1787161248590
 }
