@@ -15,21 +15,26 @@
       "googlecalendar"
     ],
     "agentTopology": {
+      "mode": "single",
       "slashCommands": [
         {
-          "trigger": "/qualify-a-buyer-business",
+          "trigger": "qualify-a-buyer-business",
           "label": "Qualify a buyer",
-          "description": "Read a buyer inquiry, score readiness, draft exactly three next questions, and prepare three unbooked call slots through approval-gated Gmail, Sheets, and Calendar reads.",
-          "enabled": false,
+          "description": "Read a buyer inquiry, check financing and target range, score readiness, draft exactly three next questions, and prepare three unbooked call slots through explicit approval gates.",
+          "enabled": true,
           "commandVersion": 1,
+          "launchPolicy": {
+            "invocationPolicy": "manual",
+            "commandVersion": "1",
+            "firstUseCompletion": "execution_started"
+          },
           "presentation": {
             "userPrompt": "Read this buyer inquiry, qualify fit, and draft the next response with three questions.",
             "expectedResult": "Buyer profile scored, next questions drafted, and call slots prepared."
           },
           "execution": {
             "type": "operator_action",
-            "actionId": "6a86eb6cb8a54c2e1a012033",
-            "automationId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453"
+            "actionId": "253e9544-882b-445c-ba02-c1b15799db65"
           },
           "workflowRef": {
             "kind": "workflow",
@@ -60,5 +65,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787226991108
+  "updatedAt": 1787228565613
 }
