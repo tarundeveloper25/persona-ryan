@@ -1,36 +1,6 @@
 {
-  "schemaVersion": 2,
-  "updatedAt": 1787239965667,
-  "repos": [
-    {
-      "kind": "list",
-      "resourceKey": "list.ryan.buyer-qualification-cases",
-      "displayName": "Buyer Qualification Cases",
-      "path": "references/lists/list-ryan-buyer-qualification-cases",
-      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
-      "branch": "main",
-      "assetPath": "assets/list.json",
-      "definitionFingerprint": "594a101604997b760c08cb9b0889b71e09b2bc20cc42aabaff4c8237c22931c6"
-    },
-    {
-      "kind": "pipeline",
-      "resourceKey": "pipeline.ryan.buyer-qualification-pipeline",
-      "displayName": "Buyer Qualification Pipeline",
-      "path": "references/pipelines/pipeline-ryan-buyer-qualification-pipeline",
-      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
-      "branch": "main",
-      "assetPath": "assets/pipeline.json",
-      "definitionFingerprint": "725fc79975131594af9dae2f72e7d14a038fff87bfb0823bddf022bb0a5da4e3"
-    },
-    {
-      "kind": "workflow",
-      "resourceKey": "workflow.ryan.qualify-a-buyer",
-      "displayName": "Qualify a buyer",
-      "path": "references/commands/workflow-ryan-qualify-a-buyer",
-      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git",
-      "branch": "main",
-      "assetPath": "assets/workflow.json",
-      "definitionFingerprint": "8a76e0d7b33a07079a6f46da4a354e9c6380193e3e1b3687574e34c2dbae3739"
-    }
-  ]
+  "schemaVersion": 1,
+  "pageId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453",
+  "updatedAt": 1787240126802,
+  "repos": []
 }

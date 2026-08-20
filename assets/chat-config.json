@@ -60,11 +60,6 @@
     "category": "Real Estate",
     "subcategory": "Real Estate"
   },
-  "endpointFolderLayout": {
-    "folders": [],
-    "assignments": {},
-    "collapsedFolderIds": []
-  },
-  "commitMessage": "Sync AI Persona skill — chat config + scaffold refresh",
-  "updatedAt": 1787228795403
+  "commitMessage": "Initial chat config from AI Persona",
+  "updatedAt": 1787240126803
 }
