@@ -1,29 +1,26 @@
 {
-  "schemaVersion": 1,
-  "pageId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453",
-  "updatedAt": 1787151093884,
+  "schemaVersion": 2,
+  "updatedAt": 1787204769874,
   "repos": [
     {
       "kind": "list",
-      "id": "list_99eafe2c385b",
-      "slug": "list-99eafe2c385b",
+      "resourceKey": "list.ryan.buyer-qualification-cases",
       "displayName": "Buyer Qualification Cases",
-      "path": "references/lists/list-99eafe2c385b",
-      "url": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
+      "path": "references/lists/list-ryan-buyer-qualification-cases",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
       "branch": "main",
-      "headSha": "5e953f2a1ec271422b95291ad5f9f693436cc92e",
-      "linkedAt": 1787150928156
+      "assetPath": "assets/list.json",
+      "definitionFingerprint": "594a101604997b760c08cb9b0889b71e09b2bc20cc42aabaff4c8237c22931c6"
     },
     {
       "kind": "pipeline",
-      "id": "pl_2c40bbc4835c",
-      "slug": "pl-2c40bbc4835c",
+      "resourceKey": "pipeline.ryan.buyer-qualification-pipeline",
       "displayName": "Buyer Qualification Pipeline",
-      "path": "references/pipelines/pl-2c40bbc4835c",
-      "url": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
+      "path": "references/pipelines/pipeline-ryan-buyer-qualification-pipeline",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
       "branch": "main",
-      "headSha": "6b4208f6e4b9b0d82f86448bb5c7b7c0bc42c143",
-      "linkedAt": 1787151093884
+      "assetPath": "assets/pipeline.json",
+      "definitionFingerprint": "725fc79975131594af9dae2f72e7d14a038fff87bfb0823bddf022bb0a5da4e3"
     }
   ]
 }
