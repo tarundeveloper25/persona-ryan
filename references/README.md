@@ -14,6 +14,7 @@ Private submodules need credentials that can read the linked repositories.
 
 | Kind | Name | Path | Branch |
 |------|------|------|--------|
+| command | Qualify a buyer | `references/commands/6a86eb6cb8a54c2e1a012033` | `main` |
 | list | Buyer Qualification Cases | `references/lists/list-99eafe2c385b` | `main` |
 | pipeline | Buyer Qualification Pipeline | `references/pipelines/pl-2c40bbc4835c` | `main` |
 

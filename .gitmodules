@@ -6,3 +6,7 @@
 	path = references/pipelines/pl-2c40bbc4835c
 	url = https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git
 	branch = main
+[submodule "references/commands/6a86eb6cb8a54c2e1a012033"]
+	path = references/commands/6a86eb6cb8a54c2e1a012033
+	url = https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git
+	branch = main
