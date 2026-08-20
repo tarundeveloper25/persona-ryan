@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 2,
-  "resourceKey": "persona.ryan",
+  "schemaVersion": 1,
+  "pageId": "0ec94bd1-83bc-4bdc-a529-1f62c0150453",
   "publishedConfig": {
     "name": "Ryan",
     "firstMessage": "Hi, I’m Ryan. To qualify a buyer inquiry, type /qualify-a-buyer-business and provide the Gmail thread reference plus the budget spreadsheet URL/reference, tab, and buyer row key. I’ll preview each read for approval, score readiness, draft exactly three questions, and suggest three unbooked call times.",
@@ -17,6 +17,7 @@
     "agentTopology": {
       "slashCommands": [
         {
+          "id": "qualify-a-buyer-business",
           "trigger": "/qualify-a-buyer-business",
           "label": "Qualify a buyer",
           "description": "Read a buyer inquiry, score readiness, draft exactly three next questions, and prepare three unbooked call slots through approval-gated Gmail, Sheets, and Calendar reads.",
@@ -58,6 +59,6 @@
     "assignments": {},
     "collapsedFolderIds": []
   },
-  "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787209929207
+  "commitMessage": "Sync AI Persona skill — chat config + scaffold refresh",
+  "updatedAt": 1787209982003
 }
