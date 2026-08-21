@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": 1787313795986,
+  "updatedAt": 1787314135807,
   "repos": [
     {
       "kind": "list",
@@ -10,7 +10,7 @@
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
       "branch": "main",
       "assetPath": "assets/list.json",
-      "definitionFingerprint": "6a0ea340be2008ea87190a4e46aaa8b85d658b302337a54531fab981faf61de8"
+      "definitionFingerprint": "b566b480d53dca7cfa34f5132bedc8ea6991a9dee9d18f479c22208cb3591cd8"
     },
     {
       "kind": "pipeline",
