@@ -48,6 +48,11 @@
       ]
     },
     "llmModel": "auto",
+    "temperature": 0.7,
+    "voiceId": "",
+    "voiceProvider": "gemini",
+    "geminiLiveModel": "gemini-3.1-flash-live-preview",
+    "geminiLiveVoice": "Aoede",
     "webSearchEnabled": true,
     "chatImageUpload": {
       "enabled": true,
@@ -68,6 +73,18 @@
       "label": "Call",
       "icon": "phone"
     },
+    "harnessPolicy": {
+      "allowedCapabilities": [],
+      "allowedApprovalChannels": [
+        "email",
+        "sms",
+        "imessage",
+        "slack",
+        "whatsapp",
+        "discord",
+        "telegram"
+      ]
+    },
     "chatCommandSettings": {
       "image": false,
       "video": false,
@@ -78,9 +95,9 @@
       "skillRun": false
     },
     "chatCommandModels": {},
-    "voiceProvider": "gemini",
-    "geminiLiveModel": "gemini-3.1-flash-live-preview",
-    "geminiLiveVoice": "Aoede"
+    "chatCommandOptions": {},
+    "nativeConnectorIds": [],
+    "mcpServerIds": []
   },
   "pageProfile": {
     "title": "Ryan",
@@ -103,5 +120,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787301030301
+  "updatedAt": 1787308796845
 }
