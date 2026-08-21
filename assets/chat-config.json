@@ -97,7 +97,14 @@
     "chatCommandModels": {},
     "chatCommandOptions": {},
     "nativeConnectorIds": [],
-    "mcpServerIds": []
+    "mcpServerIds": [],
+    "outputIntegration": {
+      "pipelineListBindings": {
+        "pl_2c40bbc4835c": "list_99eafe2c385b"
+      },
+      "activeDataListId": "list_99eafe2c385b",
+      "legacyListsMigratedAt": "2026-08-21T11:50:20.249Z"
+    }
   },
   "pageProfile": {
     "title": "Ryan",
@@ -120,5 +127,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787313794676
+  "updatedAt": 1787314229136
 }
