@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": 1787310787824,
+  "updatedAt": 1787314193159,
   "nodes": [
     {
       "id": "list:list.ryan.buyer-qualification-cases",
@@ -9,14 +9,14 @@
       "path": "references/lists/list-ryan-buyer-qualification-cases",
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
       "branch": "main",
-      "revision": "45fbd4cca22ad71f62174b124a2d196b73e2bad8",
+      "revision": "24f4969bf78af7b2cd424999ac8ffdb45bf7fd86",
       "assetPaths": [
         "assets/list.json"
       ],
       "portable": {
         "resourceKey": "list.ryan.buyer-qualification-cases",
         "assetPath": "assets/list.json",
-        "definitionFingerprint": "ccec01901bea3cc7d04b1d8919000195d3bd34fc44591ea4c731920d6f4f7720"
+        "definitionFingerprint": "b566b480d53dca7cfa34f5132bedc8ea6991a9dee9d18f479c22208cb3591cd8"
       }
     },
     {
@@ -43,14 +43,14 @@
       "path": "references/workflows/workflow-ryan-qualify-a-buyer",
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git",
       "branch": "main",
-      "revision": "ae73fa46ebca0219d51aa8511512b938de17e495",
+      "revision": "4605663d24578ab027e56de7a823833d21bcc64b",
       "assetPaths": [
         "assets/workflow.json"
       ],
       "portable": {
         "resourceKey": "workflow.ryan.qualify-a-buyer",
         "assetPath": "assets/workflow.json",
-        "definitionFingerprint": "f6ba2ff11c4981aebdd91ed9d8ad17f69c079cf26fe6476b9062f96dde206ab9"
+        "definitionFingerprint": "329510fa38cd0851e38da78e410531a23baeb273ede71774b2346caa96fdca1d"
       }
     }
   ],
