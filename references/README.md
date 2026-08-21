@@ -7,20 +7,24 @@ submodule of this Persona — never a submodule of another submodule.
 git submodule update --init
 ```
 
-Private submodules need credentials that can read the linked repositories.
+## Portable bundle (`registry.json`)
 
-## Layout
+Import materializes one Workflow per distinct command workflowRef, plus exactly one Pipeline and one List.
 
-```text
-references/registry.json        ← portable only: exactly one Workflow, Pipeline, List
-references/workspace.json       ← generated authoring graph (ignored by import)
-references/pipelines/<key>/     ← submodule: pipeline-builder repo
-references/lists/<key>/         ← submodule: list-builder repo
-references/workflows/<key>/     ← submodule: workflow-builder repo (once per remote)
-references/team-agents/<key>/   ← submodule: git-bound team agents only
-```
+| Kind | Resource key | Name | Path | Branch |
+|---|---|---|---|---|
+| list *(portable)* | `list.ryan.buyer-qualification-cases` | Buyer Qualification Cases | `references/lists/list-ryan-buyer-qualification-cases` | `main` |
+| pipeline *(portable)* | `pipeline.ryan.buyer-qualification-pipeline` | Buyer Qualification Pipeline | `references/pipelines/pipeline-ryan-buyer-qualification-pipeline` | `main` |
+| workflow *(portable)* | `workflow.ryan.qualify-a-buyer` | Qualify a buyer | `references/workflows/workflow-ryan-qualify-a-buyer` | `main` |
 
-`registry.json` is the portable bundle. `workspace.json` is generated on **workspace
-publish** — do not edit it by hand, and do not add `team_agent` rows to the portable
-registry. Commit content in each child repository first, then publish so this Persona's
-lock advances in one root commit.
+## Authoring graph (`workspace.json`)
+
+Generated. Do not edit by hand. Extra workflows and team agents live here so one clone
+reaches the whole graph. They are **not** cross-environment portable imports.
+
+| Kind | Id | Name | Path | Branch |
+|---|---|---|---|---|
+| — | _No extra workspace repositories._ | | | |
+
+Commit content in each child repository first, then **publish the workspace** so this
+Persona lock (gitlinks, fingerprints, and `workspace.json`) advances in one root commit.

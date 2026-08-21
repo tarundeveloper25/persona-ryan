@@ -1,12 +1,12 @@
-[submodule "references/lists/list-99eafe2c385b"]
-	path = references/lists/list-99eafe2c385b
+[submodule "references/lists/list-ryan-buyer-qualification-cases"]
+	path = references/lists/list-ryan-buyer-qualification-cases
 	url = https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git
 	branch = main
-[submodule "references/pipelines/pl-2c40bbc4835c"]
-	path = references/pipelines/pl-2c40bbc4835c
+[submodule "references/pipelines/pipeline-ryan-buyer-qualification-pipeline"]
+	path = references/pipelines/pipeline-ryan-buyer-qualification-pipeline
 	url = https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git
 	branch = main
-[submodule "references/commands/6a86eb6cb8a54c2e1a012033"]
-	path = references/commands/6a86eb6cb8a54c2e1a012033
+[submodule "references/workflows/workflow-ryan-qualify-a-buyer"]
+	path = references/workflows/workflow-ryan-qualify-a-buyer
 	url = https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git
 	branch = main
