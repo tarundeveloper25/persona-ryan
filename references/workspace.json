@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": 1787330627987,
+  "updatedAt": 1787498502301,
   "nodes": [
     {
       "id": "list:list.ryan.buyer-qualification-cases",
@@ -43,14 +43,14 @@
       "path": "references/workflows/workflow-ryan-qualify-a-buyer",
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git",
       "branch": "main",
-      "revision": "f3767deb1ee70bf72e554232a9a845870578bbb4",
+      "revision": "9f649fbf54ddc5780f4b1bced2470b763f4a49be",
       "assetPaths": [
         "assets/workflow.json"
       ],
       "portable": {
         "resourceKey": "workflow.ryan.qualify-a-buyer",
         "assetPath": "assets/workflow.json",
-        "definitionFingerprint": "6adffd091060af85fe2bef31d80297008459ed0431768d8711ae60a0cbbc0fce"
+        "definitionFingerprint": "1d4842f3b49e806440c505e40d1a90ed8dc7e229fe7f3dac3917200044f03562"
       }
     }
   ],
