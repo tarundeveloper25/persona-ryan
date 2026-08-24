@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": 1787503614131,
+  "updatedAt": 1787546055895,
   "repos": [
     {
       "kind": "list",
@@ -20,7 +20,7 @@
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
       "branch": "main",
       "assetPath": "assets/pipeline.json",
-      "definitionFingerprint": "45e191362cf8620cb36cb9d3b379104ebe20b1a3328bfe00aee7a0872434d8ce"
+      "definitionFingerprint": "82be398add6de5e701e02815a47d6f102bf52050028059e78c9e73248240692a"
     },
     {
       "kind": "workflow",
