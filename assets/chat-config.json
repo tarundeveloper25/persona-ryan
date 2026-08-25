@@ -104,6 +104,15 @@
       },
       "activeDataListId": "list_99eafe2c385b",
       "legacyListsMigratedAt": "2026-08-21T11:50:20.249Z"
+    },
+    "jarvisMode": {
+      "enabled": false,
+      "localComputerControl": false,
+      "preferredTransport": "runner-choice"
+    },
+    "memoryConfig": {
+      "provider": "inherit",
+      "captureMode": "automatic"
     }
   },
   "pageProfile": {
@@ -127,5 +136,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787664721370
+  "updatedAt": 1787665742567
 }
