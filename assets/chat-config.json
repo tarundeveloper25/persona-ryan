@@ -114,7 +114,42 @@
       "provider": "inherit",
       "captureMode": "automatic"
     },
-    "composioKeyId": "255f62fa-3b82-4dd6-9335-66bd9b793b7c"
+    "composioKeyId": "255f62fa-3b82-4dd6-9335-66bd9b793b7c",
+    "endpoints": [
+      {
+        "id": "1207947d-6f00-45b2-823c-e88ab22e741c",
+        "name": "Ryan Gmail Read Inquiry",
+        "slug": "ryan-gmail-read-inquiry",
+        "createdAt": 1787746315280,
+        "updatedAt": 1787746315280,
+        "workflow": {
+          "nodes": [],
+          "edges": []
+        }
+      },
+      {
+        "id": "2da65a71-65a0-45aa-a343-70638e48af88",
+        "name": "Ryan Sheets Check Budget",
+        "slug": "ryan-sheets-check-budget",
+        "createdAt": 1787746787357,
+        "updatedAt": 1787746787357,
+        "workflow": {
+          "nodes": [],
+          "edges": []
+        }
+      },
+      {
+        "id": "2f37306b-7e2f-4c71-b4c6-d1fac3fbb60a",
+        "name": "Ryan Calendar Suggest Slots",
+        "slug": "ryan-calendar-suggest-slots",
+        "createdAt": 1787747218661,
+        "updatedAt": 1787747218661,
+        "workflow": {
+          "nodes": [],
+          "edges": []
+        }
+      }
+    ]
   },
   "pageProfile": {
     "title": "Ryan",
@@ -131,11 +166,25 @@
     "category": "Real Estate",
     "subcategory": "Real Estate"
   },
+  "endpointSummaries": [
+    {
+      "id": "1207947d-6f00-45b2-823c-e88ab22e741c",
+      "name": "Ryan Gmail Read Inquiry"
+    },
+    {
+      "id": "2da65a71-65a0-45aa-a343-70638e48af88",
+      "name": "Ryan Sheets Check Budget"
+    },
+    {
+      "id": "2f37306b-7e2f-4c71-b4c6-d1fac3fbb60a",
+      "name": "Ryan Calendar Suggest Slots"
+    }
+  ],
   "endpointFolderLayout": {
     "folders": [],
     "assignments": {},
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787745163481
+  "updatedAt": 1787748855254
 }
