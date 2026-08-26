@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": 1787664690286,
+  "updatedAt": 1787748784714,
   "nodes": [
     {
       "id": "list:list.ryan.buyer-qualification-cases",
@@ -26,15 +26,51 @@
       "path": "references/pipelines/pipeline-ryan-buyer-qualification-pipeline",
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
       "branch": "main",
-      "revision": "00e9646318e434b14bff9d069a06b504617afead",
+      "revision": "43fa7bf9ae095b81b4d8042fbd013068f0c65968",
       "assetPaths": [
         "assets/pipeline.json"
       ],
       "portable": {
         "resourceKey": "pipeline.ryan.buyer-qualification-pipeline",
         "assetPath": "assets/pipeline.json",
-        "definitionFingerprint": "49471806036361e90874d7d0c02007bbcedc691d4b9fdf291e5b32c45952c6e0"
+        "definitionFingerprint": "4736d601ace4aade145ea669f504124488aa930879d1cf3fc7520eeb96e75d68"
       }
+    },
+    {
+      "id": "team_agent:ryan-calendar-suggest-slots",
+      "kind": "team_agent",
+      "displayName": "ryan-calendar-suggest-slots",
+      "path": "references/team-agents/ryan-calendar-suggest-slots",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-calendar-suggest-slots.git",
+      "branch": "main",
+      "revision": "dfa5b90681e3b40b15a61ca94b7e914e28c3324e",
+      "assetPaths": [
+        "assets/team-agent.json"
+      ]
+    },
+    {
+      "id": "team_agent:ryan-gmail-read-inquiry",
+      "kind": "team_agent",
+      "displayName": "ryan-gmail-read-inquiry",
+      "path": "references/team-agents/ryan-gmail-read-inquiry",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-gmail-read-inquiry.git",
+      "branch": "main",
+      "revision": "fbf2fbc48fbc87a26ae286ee9415fe865d8b82d2",
+      "assetPaths": [
+        "assets/team-agent.json"
+      ]
+    },
+    {
+      "id": "team_agent:ryan-sheets-check-budget",
+      "kind": "team_agent",
+      "displayName": "ryan-sheets-check-budget",
+      "path": "references/team-agents/ryan-sheets-check-budget",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-sheets-check-budget.git",
+      "branch": "main",
+      "revision": "70a1b1701cdd2502c1e79760bc0658c256801866",
+      "assetPaths": [
+        "assets/team-agent.json"
+      ]
     },
     {
       "id": "workflow:workflow.ryan.qualify-a-buyer",
@@ -72,6 +108,24 @@
       "to": "list:list.ryan.buyer-qualification-cases",
       "relation": "listRef",
       "source": "pipeline.storage.listRef"
+    },
+    {
+      "from": "pipeline:pipeline.ryan.buyer-qualification-pipeline",
+      "to": "team_agent:ryan-calendar-suggest-slots",
+      "relation": "workflowEndpoint",
+      "source": "pipeline.transition.propose_slots.workflowEndpointId"
+    },
+    {
+      "from": "pipeline:pipeline.ryan.buyer-qualification-pipeline",
+      "to": "team_agent:ryan-gmail-read-inquiry",
+      "relation": "workflowEndpoint",
+      "source": "pipeline.transition.score_buyer.workflowEndpointId"
+    },
+    {
+      "from": "pipeline:pipeline.ryan.buyer-qualification-pipeline",
+      "to": "team_agent:ryan-sheets-check-budget",
+      "relation": "workflowEndpoint",
+      "source": "pipeline.transition.draft_response.workflowEndpointId"
     },
     {
       "from": "workflow:workflow.ryan.qualify-a-buyer",

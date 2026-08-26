@@ -10,3 +10,15 @@
 	path = references/workflows/workflow-ryan-qualify-a-buyer
 	url = https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git
 	branch = main
+[submodule "references/team-agents/ryan-calendar-suggest-slots"]
+	path = references/team-agents/ryan-calendar-suggest-slots
+	url = https://github.com/tarundeveloper25/ryan-calendar-suggest-slots.git
+	branch = main
+[submodule "references/team-agents/ryan-gmail-read-inquiry"]
+	path = references/team-agents/ryan-gmail-read-inquiry
+	url = https://github.com/tarundeveloper25/ryan-gmail-read-inquiry.git
+	branch = main
+[submodule "references/team-agents/ryan-sheets-check-budget"]
+	path = references/team-agents/ryan-sheets-check-budget
+	url = https://github.com/tarundeveloper25/ryan-sheets-check-budget.git
+	branch = main

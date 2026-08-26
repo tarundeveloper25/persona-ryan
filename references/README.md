@@ -24,7 +24,9 @@ reaches the whole graph. They are **not** cross-environment portable imports.
 
 | Kind | Id | Name | Path | Branch |
 |---|---|---|---|---|
-| — | _No extra workspace repositories._ | | | |
+| team_agent | `team_agent:ryan-calendar-suggest-slots` | ryan-calendar-suggest-slots | `references/team-agents/ryan-calendar-suggest-slots` | `main` |
+| team_agent | `team_agent:ryan-gmail-read-inquiry` | ryan-gmail-read-inquiry | `references/team-agents/ryan-gmail-read-inquiry` | `main` |
+| team_agent | `team_agent:ryan-sheets-check-budget` | ryan-sheets-check-budget | `references/team-agents/ryan-sheets-check-budget` | `main` |
 
 Commit content in each child repository first, then **publish the workspace** so this
 Persona lock (gitlinks, fingerprints, and `workspace.json`) advances in one root commit.
