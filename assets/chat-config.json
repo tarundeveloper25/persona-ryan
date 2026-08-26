@@ -12,8 +12,8 @@
     ],
     "composioEnabledToolkitSlugs": [
       "gmail",
-      "googlesheets",
-      "googlecalendar"
+      "googlecalendar",
+      "googlesheets"
     ],
     "agentTopology": {
       "mode": "single",
@@ -113,7 +113,8 @@
     "memoryConfig": {
       "provider": "inherit",
       "captureMode": "automatic"
-    }
+    },
+    "composioKeyId": "255f62fa-3b82-4dd6-9335-66bd9b793b7c"
   },
   "pageProfile": {
     "title": "Ryan",
@@ -136,5 +137,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787665742567
+  "updatedAt": 1787745163481
 }
