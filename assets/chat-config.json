@@ -10,7 +10,11 @@
     "enabledThirdPartyToolProviders": [
       "composio"
     ],
-    "composioEnabledToolkitSlugs": [],
+    "composioEnabledToolkitSlugs": [
+      "gmail",
+      "googlecalendar",
+      "googlesheets"
+    ],
     "agentTopology": {
       "mode": "single",
       "slashCommands": [
@@ -110,7 +114,7 @@
       "provider": "inherit",
       "captureMode": "automatic"
     },
-    "composioKeyId": "c56b8ba1-2aa4-4081-9e59-7811ffcd8849",
+    "composioKeyId": "35ad7f57-2dc9-4013-87b0-78fc6f907c25",
     "endpoints": [
       {
         "id": "1207947d-6f00-45b2-823c-e88ab22e741c",
@@ -182,5 +186,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787818891277
+  "updatedAt": 1787826980124
 }
