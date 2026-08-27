@@ -10,7 +10,11 @@
     "enabledThirdPartyToolProviders": [
       "composio"
     ],
-    "composioEnabledToolkitSlugs": [],
+    "composioEnabledToolkitSlugs": [
+      "gmail",
+      "googlecalendar",
+      "googlesheets"
+    ],
     "agentTopology": {
       "mode": "single",
       "slashCommands": [
@@ -182,5 +186,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787818320024
+  "updatedAt": 1787818334203
 }
