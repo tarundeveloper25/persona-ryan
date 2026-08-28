@@ -114,7 +114,7 @@
       "provider": "inherit",
       "captureMode": "automatic"
     },
-    "composioKeyId": "35ad7f57-2dc9-4013-87b0-78fc6f907c25",
+    "composioKeyId": "cf938ebf-483a-4a5e-8320-ac2b48620fbe",
     "endpoints": [
       {
         "id": "1207947d-6f00-45b2-823c-e88ab22e741c",
@@ -149,7 +149,25 @@
           "edges": []
         }
       }
-    ]
+    ],
+    "multimodalUnderstanding": {
+      "image": {
+        "enabled": true,
+        "provider": "google"
+      },
+      "video": {
+        "enabled": false,
+        "provider": "google"
+      },
+      "audio": {
+        "enabled": false,
+        "provider": "google"
+      },
+      "file": {
+        "enabled": false,
+        "provider": "google"
+      }
+    }
   },
   "pageProfile": {
     "title": "Ryan",
@@ -186,5 +204,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1787906229508
+  "updatedAt": 1787919751197
 }
