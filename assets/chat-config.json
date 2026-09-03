@@ -47,7 +47,7 @@
         }
       ]
     },
-    "llmModel": "auto",
+    "llmModel": "6965474591b1f4c1e3a60622",
     "temperature": 0.7,
     "voiceId": "",
     "voiceProvider": "gemini",
@@ -204,5 +204,5 @@
     "collapsedFolderIds": []
   },
   "commitMessage": "Sync chat config to git",
-  "updatedAt": 1788098451307
+  "updatedAt": 1788440423438
 }
