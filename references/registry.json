@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": 1788588287785,
+  "updatedAt": 1788593496154,
   "repos": [
     {
       "kind": "list",
@@ -10,8 +10,7 @@
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-list.git",
       "branch": "main",
       "assetPath": "assets/list.json",
-      "definitionFingerprint": "b566b480d53dca7cfa34f5132bedc8ea6991a9dee9d18f479c22208cb3591cd8",
-      "revision": "24f4969bf78af7b2cd424999ac8ffdb45bf7fd86"
+      "definitionFingerprint": "b566b480d53dca7cfa34f5132bedc8ea6991a9dee9d18f479c22208cb3591cd8"
     },
     {
       "kind": "pipeline",
@@ -21,8 +20,37 @@
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-buyer-qualification-pipeline.git",
       "branch": "main",
       "assetPath": "assets/pipeline.json",
-      "definitionFingerprint": "b1f6ca00c4856755bc31f3106c19d8d8d948b0a90b7f9b0c200d69952cdfcc2e",
-      "revision": "8d071bafbe2bdfffb05ed9ebf96a8574c92836e9"
+      "definitionFingerprint": "13b61dedf007a7658aa527840ebdcab342f475493f8be03dfaa04a47a5222c42"
+    },
+    {
+      "kind": "team_agent",
+      "resourceKey": "team-agent.ryan.ryan-gmail-read-inquiry",
+      "displayName": "ryan-gmail-read-inquiry",
+      "path": "references/team-agents/ryan-gmail-read-inquiry",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-gmail-read-inquiry.git",
+      "branch": "main",
+      "assetPath": "assets/team-agent.json",
+      "definitionFingerprint": "f307926784451f6a0daa13d737483842bf60238f0eb0966c473d28fb3b16ef34"
+    },
+    {
+      "kind": "team_agent",
+      "resourceKey": "team-agent.ryan.ryan-sheets-check-budget",
+      "displayName": "ryan-sheets-check-budget",
+      "path": "references/team-agents/ryan-sheets-check-budget",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-sheets-check-budget.git",
+      "branch": "main",
+      "assetPath": "assets/team-agent.json",
+      "definitionFingerprint": "4242d1f431c8c9f81920e7cb06e4f5d1f2616ba05568c98d0d715f1df591bf2c"
+    },
+    {
+      "kind": "team_agent",
+      "resourceKey": "team-agent.ryan.ryan-calendar-suggest-slots",
+      "displayName": "ryan-calendar-suggest-slots",
+      "path": "references/team-agents/ryan-calendar-suggest-slots",
+      "repositoryUrl": "https://github.com/tarundeveloper25/ryan-calendar-suggest-slots.git",
+      "branch": "main",
+      "assetPath": "assets/team-agent.json",
+      "definitionFingerprint": "bed424278bce5c730fccf972b4b55d53fda88f292f7bce851e8371e0a9fc4dd2"
     },
     {
       "kind": "workflow",
@@ -32,8 +60,7 @@
       "repositoryUrl": "https://github.com/tarundeveloper25/ryan-qualify-a-buyer-business-workflow.git",
       "branch": "main",
       "assetPath": "assets/workflow.json",
-      "definitionFingerprint": "7948a6176d1ac4f6d36db9c9ee8d467879b8205c7405e5290f8eaf4fe5a45ecb",
-      "revision": "b4969f11e60f883ec1adfb036525f4aab06c47d5"
+      "definitionFingerprint": "7948a6176d1ac4f6d36db9c9ee8d467879b8205c7405e5290f8eaf4fe5a45ecb"
     }
   ]
 }
