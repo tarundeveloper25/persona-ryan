@@ -9,7 +9,7 @@ git submodule update --init
 
 ## Portable bundle (`registry.json`)
 
-Import materializes one Workflow per distinct command workflowRef, plus exactly one Pipeline and one List.
+Import materializes one Workflow per distinct command workflowRef, exactly one Pipeline, and every registered domain List.
 
 | Kind | Resource key | Name | Path | Branch |
 |---|---|---|---|---|
